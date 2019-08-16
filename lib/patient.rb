@@ -23,3 +23,4 @@ class Patient
   def doctors
     appointments.map {|app| app.doctor}
   end
+end
